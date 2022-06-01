@@ -1,0 +1,60 @@
+h1 {
+    color: #00FA9A;
+}
+
+h2{color:mediumspringgreen}
+
+/* * {
+    border: solid;
+} */
+
+.cabecalho *{border: solid;}
+
+.cabecalho{
+    background-color: #4B0082;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}*/
+
+.grade{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.rodape{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+
+.item{
+    position: relative;
+}
+
+.item p{
+    position: absolute;
+    top:50%;
+    left:24.7%;
+}
+
+.item:hover img{
+    opacity: 0.32;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.menu{
+    margin-right: 32px;
+}
